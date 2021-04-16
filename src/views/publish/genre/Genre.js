@@ -92,12 +92,7 @@ const Breadcrumbs = () => {
 
   useEffect(() => {
     getGenre();
-  }, [postGenre, deleteGenre]);
-
-  const print = (e) => {
-    e.preventDefault();
-    console.log("print");
-  };
+  });
 
   return (
     <CRow>
@@ -105,15 +100,6 @@ const Breadcrumbs = () => {
         <CCardBody>
           <CRow>
             <CCol>
-              {/* <form onSubmit={postGenre} autoComplete="off">
-                <input
-                  type="text"
-                  value={genreSubmit}
-                  onChange={(e) => setGenreSubmit(e.target.value)}
-                  placeholder="genre"
-                />
-                <button type="submit">submit</button>
-              </form> */}
               <CForm onSubmit={postGenre} autoComplete="off">
                 <CFormGroup row>
                   <CCol md="12">

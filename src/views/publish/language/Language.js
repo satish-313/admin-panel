@@ -102,7 +102,7 @@ const Breadcrumbs = () => {
 
   useEffect(() => {
     getLanguage();
-  }, [postLanguage, deleteLanguage]);
+  });
 
   return (
     <CRow>

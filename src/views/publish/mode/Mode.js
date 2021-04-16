@@ -93,7 +93,7 @@ const Breadcrumbs = () => {
 
   useEffect(() => {
     getMode();
-  }, [postMode, deleteMode]);
+  });
 
   return (
     <CRow>
