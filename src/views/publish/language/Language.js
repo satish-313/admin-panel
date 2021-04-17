@@ -68,6 +68,7 @@ const Breadcrumbs = () => {
           }
         );
         const data = await res.json();
+        console.log(data)
         setLanguageSubmit("");
       } catch (error) {
         console.log(error);

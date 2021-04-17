@@ -62,6 +62,7 @@ const Breadcrumbs = () => {
           body: JSON.stringify({ mode: modeSubmit }),
         });
         const data = await res.json();
+        console.log(data)
         setModeSubmit("");
       } catch (error) {
         console.log(error);

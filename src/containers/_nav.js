@@ -5,7 +5,7 @@ const _nav = [
   {
     _tag: "CSidebarNavItem",
     name: "Dashboard",
-    to: "/dashboard",
+    to: "/admin/dashboard",
     icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon" />,
     badge: {
       color: "info",
@@ -19,13 +19,13 @@ const _nav = [
   {
     _tag: "CSidebarNavItem",
     name: "Colors",
-    to: "/theme/colors",
+    to: "/admin/theme/colors",
     icon: "cil-drop",
   },
   {
     _tag: "CSidebarNavItem",
     name: "Typography",
-    to: "/theme/typography",
+    to: "/admin/theme/typography",
     icon: "cil-pencil",
   },
   {
@@ -35,28 +35,28 @@ const _nav = [
   {
     _tag: "CSidebarNavDropdown",
     name: "Publish",
-    route: "/publish",
+    route: "/admin/publish",
     icon: "cil-puzzle",
     _children: [
       {
         _tag: "CSidebarNavItem",
         name: "Genre",
-        to: "/publish/genre",
+        to: "/admin/publish/genre",
       },
       {
         _tag: "CSidebarNavItem",
         name: "Language",
-        to: "/publish/language",
+        to: "/admin/publish/language",
       },
       {
         _tag: "CSidebarNavItem",
         name: "Status",
-        to: "/publish/status",
+        to: "/admin/publish/status",
       },
       {
         _tag: "CSidebarNavItem",
         name: "Mode",
-        to: "/publish/mode",
+        to: "/admin/publish/mode",
       },
       // {
       //   _tag: 'CSidebarNavItem',
@@ -138,47 +138,47 @@ const _nav = [
   {
     _tag: "CSidebarNavDropdown",
     name: "Buttons",
-    route: "/buttons",
+    route: "/admin/buttons",
     icon: "cil-cursor",
     _children: [
       {
         _tag: "CSidebarNavItem",
         name: "Buttons",
-        to: "/buttons/buttons",
+        to: "/admin/buttons/buttons",
       },
       {
         _tag: "CSidebarNavItem",
         name: "Brand buttons",
-        to: "/buttons/brand-buttons",
+        to: "/admin/buttons/brand-buttons",
       },
       {
         _tag: "CSidebarNavItem",
         name: "Buttons groups",
-        to: "/buttons/button-groups",
+        to: "/admin/buttons/button-groups",
       },
       {
         _tag: "CSidebarNavItem",
         name: "Dropdowns",
-        to: "/buttons/button-dropdowns",
+        to: "/admin/buttons/button-dropdowns",
       },
     ],
   },
   {
     _tag: "CSidebarNavItem",
     name: "Charts",
-    to: "/charts",
+    to: "/admin/charts",
     icon: "cil-chart-pie",
   },
   {
     _tag: "CSidebarNavDropdown",
     name: "Icons",
-    route: "/icons",
+    route: "/admin/icons",
     icon: "cil-star",
     _children: [
       {
         _tag: "CSidebarNavItem",
         name: "CoreUI Free",
-        to: "/icons/coreui-icons",
+        to: "/admin/icons/coreui-icons",
         badge: {
           color: "success",
           text: "NEW",
@@ -187,47 +187,47 @@ const _nav = [
       {
         _tag: "CSidebarNavItem",
         name: "CoreUI Flags",
-        to: "/icons/flags",
+        to: "/admin/icons/flags",
       },
       {
         _tag: "CSidebarNavItem",
         name: "CoreUI Brands",
-        to: "/icons/brands",
+        to: "/admin/icons/brands",
       },
     ],
   },
   {
     _tag: "CSidebarNavDropdown",
     name: "Notifications",
-    route: "/notifications",
+    route: "/admin/notifications",
     icon: "cil-bell",
     _children: [
       {
         _tag: "CSidebarNavItem",
         name: "Alerts",
-        to: "/notifications/alerts",
+        to: "/admin/notifications/alerts",
       },
       {
         _tag: "CSidebarNavItem",
         name: "Badges",
-        to: "/notifications/badges",
+        to: "/admin/notifications/badges",
       },
       {
         _tag: "CSidebarNavItem",
         name: "Modal",
-        to: "/notifications/modals",
+        to: "/admin/notifications/modals",
       },
       {
         _tag: "CSidebarNavItem",
         name: "Toaster",
-        to: "/notifications/toaster",
+        to: "/admin/notifications/toaster",
       },
     ],
   },
   {
     _tag: "CSidebarNavItem",
     name: "Widgets",
-    to: "/widgets",
+    to: "/admin/widgets",
     icon: "cil-calculator",
     badge: {
       color: "info",
@@ -244,28 +244,28 @@ const _nav = [
   {
     _tag: "CSidebarNavDropdown",
     name: "Pages",
-    route: "/pages",
+    route: "/admin/pages",
     icon: "cil-star",
     _children: [
       {
         _tag: "CSidebarNavItem",
         name: "Login",
-        to: "/login",
+        to: "/admin/login",
       },
       {
         _tag: "CSidebarNavItem",
         name: "Register",
-        to: "/register",
+        to: "/admin/register",
       },
       {
         _tag: "CSidebarNavItem",
         name: "Error 404",
-        to: "/404",
+        to: "/admin/404",
       },
       {
         _tag: "CSidebarNavItem",
         name: "Error 500",
-        to: "/500",
+        to: "/admin/500",
       },
     ],
   },
@@ -291,7 +291,7 @@ const _nav = [
   {
     _tag: "CSidebarNavItem",
     name: "Label danger",
-    to: "",
+    to: "/admin/",
     icon: {
       name: "cil-star",
       className: "text-danger",
@@ -301,7 +301,7 @@ const _nav = [
   {
     _tag: "CSidebarNavItem",
     name: "Label info",
-    to: "",
+    to: "/admin/",
     icon: {
       name: "cil-star",
       className: "text-info",
@@ -311,7 +311,7 @@ const _nav = [
   {
     _tag: "CSidebarNavItem",
     name: "Label warning",
-    to: "",
+    to: "/admin/",
     icon: {
       name: "cil-star",
       className: "text-warning",
